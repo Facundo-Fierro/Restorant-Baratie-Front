@@ -1,0 +1,30 @@
+.login-page {
+    background-image: url('../Assets/HomeImageDifuminada.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    font-family: Oswald;
+    font-size: large;
+    color:white ;
+  }
+  .text-red{
+    color:red;
+  }
+  .ghost-text{
+    color:rgba(202, 202, 202, 0.74) ;
+    font-size: large;
+  }
+  .ghost-bg{
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 15px;
+    padding: 30px;
+  }
+
+
+  @media (max-width: 900px) {
+    body {
+      background-image: url('../Assets/ImagenChica.jpg');
+      background-size: cover;
+    
+    }
+  }

@@ -1,0 +1,13 @@
+.menu-card{
+    height: 250px;
+    border-color: yellow;
+}
+.text-white{
+    color: white;
+}
+.text-green{
+    color: rgb(2, 163, 2);
+}
+.text-gray{
+    color: rgb(141, 141, 141);
+}
