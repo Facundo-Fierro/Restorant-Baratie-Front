@@ -2,7 +2,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 const instance = axios.create({
-    baseURL:'https://restorant-baratie-back-noy9.vercel.app/api',
+    baseURL:'https://restorant-baratie2.onrender.com',
     withCredentials:true
 })
 instance.interceptors.response.use(
