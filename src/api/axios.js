@@ -2,7 +2,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 const instance = axios.create({
-    baseURL:'https://restorant-baratie2.onrender.com',
+    baseURL:'https://restorant-baratie2.onrender.com/api',
     withCredentials:true
 })
 instance.interceptors.response.use(
