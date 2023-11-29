@@ -10,6 +10,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 
   }
   .nav-col{
@@ -19,8 +20,7 @@
   }
   
    footer{
-    position: sticky;
-  top: 947px;
+
     width: 100%;
     margin-top: auto;
     height: 100px;
