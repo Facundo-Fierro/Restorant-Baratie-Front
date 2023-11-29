@@ -37,7 +37,7 @@ function HomePage() {
                   Pedidos
                 </Nav.Link>
               </Nav.Item>
-              {User.role == "admin" &&  < NavDropdown
+              {/* {User.role == "admin" &&  < NavDropdown
               title="Admin"
               id="admin-button"
               className="ms-3 text-black "
@@ -46,12 +46,12 @@ function HomePage() {
            <NavDropdown.Item as={Link} to="/adminUsuarios">Usuarios</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/adminPedidos">Pedidos</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/adminMenu">Menu</NavDropdown.Item>
-            </NavDropdown>}
+            </NavDropdown>} */}
             </div>
             <div className="d-flex flex-row">
               <Nav.Item className="ms-3">
                 Bienvenido
-                <span className="text-warning fs-1">"{User.username}"</span>!!
+                {/* <span className="text-warning fs-1">"{User.username}"</span>!! */}
               </Nav.Item>
               <Nav.Item className="ms-4 me-4">
                 <button
@@ -83,8 +83,8 @@ function HomePage() {
         </Col>
       </Row>
       <Row>
-        <Col className="footer">
-          <footer>
+        <Col>
+          <footer className="m-0">
             <div className="box">
               <p>Restorant Baratie Todos los derechos reservados</p>
             </div>
