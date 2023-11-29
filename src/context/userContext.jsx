@@ -36,7 +36,6 @@ export const UserProvider = ({ children }) => {
   const loginFunction = async (user) => {
     try {
       const res = await loginRequest(user);
-      console.log(res);
       setUser(res.data);
       setLogged(true);
     } catch (error) {

@@ -60,6 +60,18 @@ function PedidosPage (){
     
         </Col>
       </Row>
+      <Row>
+        <Col className="footer">
+          <footer>
+            <div className="box">
+              <p>Restorant Baratie Todos los derechos reservados</p>
+            </div>
+            <div className="box">
+              <p>Contactanos al +54-9-38652062062</p>
+            </div>
+          </footer>
+        </Col>
+      </Row>
       </Container>
     )
 }
