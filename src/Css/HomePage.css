@@ -1,3 +1,9 @@
+body{
+  margin:0;
+  position: relative;
+  padding-bottom: 120px;
+  min-height: 100vh;
+}
 .home-page {
     background-image: url('../Assets/HomeImage.jpg');
     background-size: cover;
@@ -6,9 +12,7 @@
     font-family: Oswald;
     font-size: large;
     color:rgb(7, 4, 4);
-    position: relative;
-    padding-bottom: 120px;
-    min-height: 100vh;
+ 
   }
   .nav-col{
     padding: 0;
