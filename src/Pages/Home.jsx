@@ -11,7 +11,7 @@ function HomePage() {
   const gotoMenu = () => {
     navigate("/menu");
   };
-  console.log(User);
+
   return (
     <Container fluid className="home-page">
       <Row>
