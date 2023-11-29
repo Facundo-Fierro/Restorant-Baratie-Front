@@ -76,6 +76,8 @@
  }
 
  footer{
+  position: sticky;
+  top: 947px;
   margin-top: auto;
   height: 100px;
   background-color: rgba(112, 112, 112, 0.493);
