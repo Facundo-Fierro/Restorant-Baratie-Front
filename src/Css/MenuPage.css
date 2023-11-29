@@ -7,6 +7,8 @@
     font-size: large;
     color:white ;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
    
   }
   .nav-col{
@@ -20,7 +22,7 @@
     width: 100vh;
     height: 100px;
     background-color: rgba(112, 112, 112, 0.493);
-    
+    margin-top: auto;
    }
    footer{
     display: flex;

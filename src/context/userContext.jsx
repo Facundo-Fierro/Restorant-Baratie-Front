@@ -27,7 +27,6 @@ export const UserProvider = ({ children }) => {
       const res = await registerRequest(user);
       setUser(res.data);
       setLogged(true);
-      console.log(res.data);
     } catch (error) {
       console.log(error)
       setUser(null);
