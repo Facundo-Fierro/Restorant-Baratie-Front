@@ -25,6 +25,7 @@
     flex-direction: row;
    
     justify-content: space-between;
+    align-self: flex-end;
    }
    div.col{
     padding: 0;
