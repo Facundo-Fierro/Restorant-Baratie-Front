@@ -44,7 +44,7 @@ const deleteOrder = (index) =>{
     setShow(true);}
     else{
       toast.error("No puedes hacer una orden vacia!", {
-        position: toast.POSITION.TOP_LEFT
+        position: toast.POSITION.TOP_RIGHT
       });
 
     }
@@ -142,8 +142,7 @@ const deleteOrder = (index) =>{
           </footer>
         </Col>
       </Row>
-    //Modal Para pedir
-
+   
       <Modal show={show} onHide={handleClose} >
         <Modal.Header closeButton className="bg-dark">
           <Modal.Title>Hacer Pedido</Modal.Title>
