@@ -7,6 +7,7 @@ import MenuCard from "../components/MenuCard";
 import { useOrders } from "../context/ordersContext";
 import { useForm } from "react-hook-form";
 import { useUser } from "../context/userContext";
+import { toast} from 'react-toastify';
 
 function MenuPage (){
   const {User} = useUser()
@@ -35,9 +36,18 @@ const deleteOrder = (index) =>{
  }
   const handleClose = () => setShow(false);
   const handleShow = (event) => {
+    if(totalOrders.length > 0){
+   
+    
     calculateTotal()
   
-    setShow(true);
+    setShow(true);}
+    else{
+      toast.error("No puedes hacer una orden vacia!", {
+        position: toast.POSITION.TOP_LEFT
+      });
+
+    }
    
   }
  const makeOrder = handleSubmit((data) => {
@@ -132,7 +142,7 @@ const deleteOrder = (index) =>{
           </footer>
         </Col>
       </Row>
-     
+    //Modal Para pedir
 
       <Modal show={show} onHide={handleClose} >
         <Modal.Header closeButton className="bg-dark">
